@@ -3,6 +3,7 @@ const { isString } = require('./src/is/IsString')
 const { isNumber } = require('./src/is/IsNumber')
 const { isObject } = require('./src/is/IsObject')
 const { isUndefined } = require('./src/is/isUndefined')
+const { isNull } = require('./src/is/IsNull')
 
 exports.isArray = (it) => {
   return isArray(it)
@@ -22,4 +23,8 @@ exports.isObject = (it) => {
 
 exports.isUndefined = (it) => {
   return isUndefined(it)
+}
+
+exports.isNull = (it) => {
+  return isNull(it)
 }
