@@ -1,5 +1,5 @@
 const { getType } = require('../GetType')
 
 exports.isUndefined = (it) => {
-  return getType(it) === 'undefined' 
+  return getType(it) === 'undefined'
 }
