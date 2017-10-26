@@ -6,9 +6,10 @@
 
 ## Example
 ```js
-const { isObject, isArray, isUndefined } = require('what-type-is')
+const { isObject, isPlainObject, isArray, isUndefined } = require('what-type-is')
 
-isObject({}) // true
+isObject([]) // true
+isPlainObject([]) // false
 isArray(['array']) // true
 isUndefined(null) // false
 ```
@@ -33,7 +34,7 @@ console.log(
 ### Importing on-demand
 This is a great way to import only what you need to use. You can import any functions available using destructuring assignment. Just take a look at [API section](#api) to know all functions you can use and import it on-demand.
 ```js
-const { isArray, isObject, isFunction } = require('what-type-is')
+const { isArray, isObject, isPlainObject isFunction } = require('what-type-is')
 const messages = ['Hello', 'World', 'How are you?']
 
 console.log(
@@ -43,6 +44,10 @@ console.log(
 console.log(
   isObject(messages)
 ) // true
+
+console.log(
+  isPlainObject(messages)
+) // false
 
 console.log(
   isFunction(messages)
@@ -59,6 +64,7 @@ console.log(
 | isNumber | value to check | boolean | `isNumber(10)` |
 | isBoolean | value to check | boolean | `isBoolean(true)` |
 | isObject | value to check | boolean | `isObject({})` |
+| isPlainObject | value to check | boolean | `isObject({})` |
 | isFunction | value to check | boolean | `isFunction(()=>{})` |
 | isDate | value to check | boolean | `isDate(new Date)` |
 | isRegExp | value to check | boolean | `isRegExp(new RegExp)` |

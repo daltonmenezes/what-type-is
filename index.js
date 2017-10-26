@@ -2,6 +2,7 @@ const { isArray } = require('./src/is/IsArray')
 const { isString } = require('./src/is/IsString')
 const { isNumber } = require('./src/is/IsNumber')
 const { isObject } = require('./src/is/IsObject')
+const { isPlainObject } = require('./src/is/IsPlainObject')
 const { isUndefined } = require('./src/is/isUndefined')
 const { isNull } = require('./src/is/IsNull')
 const { isDate } = require('./src/is/IsDate')
@@ -11,5 +12,5 @@ const { isRegExp } = require('./src/is/IsRegExp')
 
 module.exports = {
   isArray, isString, isNumber, isObject, isUndefined, isNull, isDate, isFunction,
-  isBoolean, isRegExp
+  isBoolean, isRegExp, isPlainObject
 }
