@@ -5,7 +5,7 @@ A simple type checking library for Node.js
 
 ## Example
 ```js
-const {isObject, isArray, isUndefined} = require('what-type-is')
+const { isObject, isArray, isUndefined } = require('what-type-is')
 
 isObject({}) // true
 isArray(['array']) // true
