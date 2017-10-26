@@ -42,7 +42,7 @@ console.log(
 
 console.log(
   isObject(messages)
-) // false
+) // true
 
 console.log(
   isFunction(messages)
