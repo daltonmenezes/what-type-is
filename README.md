@@ -18,6 +18,38 @@ isUndefined(null) // false
 npm i --save what-type-is
 ```
 
+## Usage
+You can import all functions or import it on-demand using destructuring assignment
+
+### Importing all functions
+```js
+const it = require('what-type-is')
+const message = 'Hello'
+
+console.log(
+  it.isString(message)
+) // true
+```
+### Importing on-demand
+This is a great way to import only what you need to use. You can import any functions available using destructuring assignment. Just take a look at [API section](#api) to know all functions you can use and import it on-demand.
+```js
+const { isArray, isObject, isFunction } = require('what-type-is')
+const messages = ['Hello', 'World', 'How are you?']
+
+console.log(
+  isArray(messages)
+) // true
+
+console.log(
+  isObject(messages)
+) // false
+
+console.log(
+  isFunction(messages)
+) // false
+```
+
+
 ## API
 
 | Function | Argument | Return |Example |
