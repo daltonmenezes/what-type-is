@@ -6,7 +6,7 @@ describe('isNumber', () => {
       expect(isNumber(1)).to.be.true
   })
 
-  it('should return false when the argument passed is not a String', () => {
+  it('should return false when the argument passed is not a Number', () => {
       expect(isNumber([])).to.be.false
       expect(isNumber('')).to.be.false
       expect(isNumber({})).to.be.false
