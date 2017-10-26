@@ -1,5 +1,5 @@
-# what-type-is
-:question: A simple type checking library for Node.js
+# What Type Is :question:
+A simple type checking library for Node.js
 
 <a href="https://github.com/daltonmenezes/uni/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/></a>
 
