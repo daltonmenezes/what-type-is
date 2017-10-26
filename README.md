@@ -1,2 +1,2 @@
 # what-type-is
-:question: A simple type checking library for JavaScript projects
+:question: A simple type checking library for Node.js
