@@ -1,7 +1,7 @@
 {
   "name": "what-type-is",
   "version": "1.0.0",
-  "description": "A simple type checking library for JavaScript projects",
+  "description": "A simple type checking library for Node.js",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
