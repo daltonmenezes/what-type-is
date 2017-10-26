@@ -1,6 +1,6 @@
 {
   "name": "what-type-is",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A simple type checking library for Node.js",
   "main": "index.js",
   "scripts": {
