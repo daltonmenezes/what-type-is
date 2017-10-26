@@ -6,23 +6,11 @@ describe('isNumber', () => {
       expect(isNumber(1)).to.be.true
   })
 
-  it('should return false when an Array is passed as argument', () => {
+  it('should return false when the argument passed is not a String', () => {
       expect(isNumber([])).to.be.false
-  })
-
-  it('should return false when a Null is passed as argument', () => {
-      expect(isNumber(null)).to.be.false
-  })
-
-  it('should return false when a String is passed as argument', () => {
       expect(isNumber('')).to.be.false
-  })
-
-  it('should return false when an Undefined is passed as argument', () => {
-      expect(isNumber(undefined)).to.be.false
-  })
-
-  it('should return false when a Object is passed as argument', () => {
       expect(isNumber({})).to.be.false
+      expect(isNumber(undefined)).to.be.false
+      expect(isNumber(null)).to.be.false
   })
 })
