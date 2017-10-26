@@ -6,7 +6,7 @@ describe('isObject', () => {
       expect(isObject({})).to.be.true
   })
 
-  it('should return false when the argument passed is not an Array', () => {
+  it('should return false when the argument passed is not an Object', () => {
       expect(isObject([])).to.be.false
       expect(isObject(1)).to.be.false
       expect(isObject('')).to.be.false
