@@ -6,7 +6,9 @@ const { isUndefined } = require('./src/is/isUndefined')
 const { isNull } = require('./src/is/IsNull')
 const { isDate } = require('./src/is/IsDate')
 const { isFunction } = require('./src/is/IsFunction')
+const { isBoolean } = require('./src/is/IsBoolean')
 
 module.exports = {
-  isArray, isString, isNumber, isObject, isUndefined, isNull, isDate, isFunction
+  isArray, isString, isNumber, isObject, isUndefined, isNull, isDate, isFunction,
+  isBoolean
 }
