@@ -3,8 +3,12 @@
 <p align="center">A simple type checking library for Node.js</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/release-v1.1.1-lightgray.svg" alt="version"/>
-  <img src="https://travis-ci.org/daltonmenezes/what-type-is.svg?branch=master" alt="build status" />
+  <a href="https://github.com/daltonmenezes/what-type-is/releases">
+    <img src="https://img.shields.io/badge/release-v1.1.1-lightgray.svg" alt="release version"/>
+  </a>
+  
+  <a href="#"><img src="https://travis-ci.org/daltonmenezes/what-type-is.svg?branch=master" alt="build status" /></a>
+  
   <a href="https://github.com/daltonmenezes/uni/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/>
   </a>
