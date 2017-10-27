@@ -1,8 +1,12 @@
 <p align="center"><img src="https://cdn.pixabay.com/photo/2016/03/08/07/08/question-1243504__340.png"/></p>
 <h1 align="center">What Type Is?</h1>
-<p align="center">A simple type checking library for Node.js</>
+<p align="center">A simple type checking library for Node.js</p>
 
-<p align="center"><a href="https://github.com/daltonmenezes/uni/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/></a></p>
+<p align="center">
+  <a href="https://github.com/daltonmenezes/uni/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/>
+  </a>
+</p>
 
 ## Example
 ```js
@@ -17,6 +21,11 @@ isUndefined(null) // false
 ## Installation
 ```
 npm i --save what-type-is
+```
+
+## Tests
+```
+npm test
 ```
 
 ## Usage
