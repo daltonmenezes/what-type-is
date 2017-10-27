@@ -1,8 +1,10 @@
-<p align="center"><img src="https://cdn.pixabay.com/photo/2016/03/08/07/08/question-1243504__340.png"/></p>
+<p align="center"><img src="https://cdn.pixabay.com/photo/2016/03/08/07/08/question-1243504__340.png" alt="logo"/></p>
 <h1 align="center">What Type Is?</h1>
 <p align="center">A simple type checking library for Node.js</p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/release-v1.1.1-lightgray.svg" alt="version"/>
+  <img src="https://travis-ci.org/daltonmenezes/what-type-is.svg?branch=master" alt="build status" />
   <a href="https://github.com/daltonmenezes/uni/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license"/>
   </a>
