@@ -12,6 +12,13 @@
   </a>
 </p>
 
+## Table of Contents
+- [Example](#example)
+- [Installation](#installation)
+- [Tests](#tests)
+- [Usage](#usage)
+- [API](#api)
+
 ## Example
 ```js
 const { isObject, isPlainObject, isArray, isUndefined } = require('what-type-is')
