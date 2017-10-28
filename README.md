@@ -75,6 +75,18 @@ console.log(
 
 
 ## API
+- [getType](#gettype-any-)
+- [isArray](#isarray-any-)
+- [isString](#isstring-any-)
+- [isNumber](#isnumber-any-)
+- [isBoolean](#isboolean-any-)
+- [isObject](#isobject-any-)
+- [isPlainObject](#isplainobject-any-)
+- [isFunction](#isfunction-any-)
+- [isDate](#isdate-any-)
+- [isRegExp](#isregexp-any-)
+- [isNull](#isnull-any-)
+- [isUndefined](#isundefined-any-)
 
 ### getType( any )
 Returns a string containing the type of the given argument.
