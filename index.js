@@ -1,3 +1,4 @@
+const { getType } = require('./src/GetType')
 const { isArray } = require('./src/is/IsArray')
 const { isString } = require('./src/is/IsString')
 const { isNumber } = require('./src/is/IsNumber')
@@ -11,6 +12,6 @@ const { isBoolean } = require('./src/is/IsBoolean')
 const { isRegExp } = require('./src/is/IsRegExp')
 
 module.exports = {
-  isArray, isString, isNumber, isObject, isUndefined, isNull, isDate, isFunction,
+  getType, isArray, isString, isNumber, isObject, isUndefined, isNull, isDate, isFunction,
   isBoolean, isRegExp, isPlainObject
 }

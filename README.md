@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/daltonmenezes/what-type-is/releases">
-    <img src="https://img.shields.io/badge/release-v1.1.1-lightgray.svg" alt="release version"/>
+    <img src="https://img.shields.io/badge/release-v1.2.0-lightgray.svg" alt="release version"/>
   </a>
   <a href="#"><img src="https://travis-ci.org/daltonmenezes/what-type-is.svg?branch=master" alt="build status" /></a>
   <a href="https://github.com/daltonmenezes/uni/blob/master/LICENSE">
@@ -21,12 +21,11 @@
 
 ## Example
 ```js
-const { isObject, isPlainObject, isArray, isUndefined } = require('what-type-is')
+const { getType, isPlainObject, isArray } = require('what-type-is')
 
-isObject([]) // true
+getType([]) // array
 isPlainObject([]) // false
 isArray(['array']) // true
-isUndefined(null) // false
 ```
 
 ## Installation
@@ -77,16 +76,111 @@ console.log(
 
 ## API
 
-| Function | Argument | Return |Example |
-| --- | --- | --- |--- |
-| isArray | value to check | boolean  | `isArray(['array'])` |
-| isString | value to check | boolean | `isString('String')` |
-| isNumber | value to check | boolean | `isNumber(10)` |
-| isBoolean | value to check | boolean | `isBoolean(true)` |
-| isObject | value to check | boolean | `isObject({})` |
-| isPlainObject | value to check | boolean | `isObject({})` |
-| isFunction | value to check | boolean | `isFunction(()=>{})` |
-| isDate | value to check | boolean | `isDate(new Date)` |
-| isRegExp | value to check | boolean | `isRegExp(new RegExp)` |
-| isNull | value to check | boolean | `isNull(null)` |
-| isUndefined | value to check | boolean | `isUndefined(undefined)` |
+### getType( any )
+Returns a string containing the type of the given argument.
+
+#### Example
+```js
+getType(['array']) // array
+getType(new Date) // date
+getType({}) // object
+```
+
+### isArray( any )
+Check if a given argument is an array and returns a boolean.
+
+#### Example
+```js
+isArray(['array']) // true
+isArray('string') // false 
+```
+
+### isString( any )
+Check if a given argument is a string and returns a boolean.
+
+#### Example
+```js
+isString('string') // true
+isString(['array']) // false 
+```
+
+### isNumber( any )
+Check if a given argument is a number and returns a boolean.
+
+#### Example
+```js
+isNumber(10) // true
+isNumber(['array']) // false 
+```
+
+### isBoolean( any )
+Check if a given argument is a boolean and returns a boolean.
+
+#### Example
+```js
+isBoolean(true) // true
+isBoolean(20) // false 
+```
+
+### isObject( any )
+Check if a given argument is an object according with ECMA spec and returns a boolean.
+
+#### Example
+```js
+isObject({}) // true
+isObject(['array']) // true
+```
+
+### isPlainObject( any )
+Check if a given argument is a plain object and returns a boolean.
+
+#### Example
+```js
+isPlainObject({}) // true
+isPlainObject(['array']) // false
+```
+
+### isFunction( any )
+Check if a given argument is a function and returns a boolean.
+
+#### Example
+```js
+isFunction(() => {}) // true
+isFunction(undefined) // false
+```
+
+### isDate( any )
+Check if a given argument is a date object and returns a boolean.
+
+#### Example
+```js
+isDate(new Date) // true
+isDate('27/10/2017') // false
+```
+
+### isRegExp( any )
+Check if a given argument is a regular expression and returns a boolean.
+
+#### Example
+```js
+isRegExp(new RegExp) // true
+isRegExp(/regularexpression/i) // true
+```
+
+### isNull( any )
+Check if a given argument is a null and returns a boolean.
+
+#### Example
+```js
+isNull(null) // true
+isNull(0) // false
+```
+
+### isUndefined( any )
+Check if a given argument is an undefined and returns a boolean.
+
+#### Example
+```js
+isUndefined(undefined) // true
+isUndefined(null) // false
+```
