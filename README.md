@@ -196,3 +196,6 @@ Check if a given argument is an undefined and returns a boolean.
 isUndefined(undefined) // true
 isUndefined(null) // false
 ```
+
+
+[Go Back to The Top](#what-type-is)
