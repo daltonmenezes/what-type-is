@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.pixabay.com/photo/2016/03/08/07/08/question-1243504__340.png" alt="logo"/></p>
+<p align="center"><img src="https://cdn.pixabay.com/photo/2016/03/08/07/08/question-1243504__240.png" alt="logo"/></p>
 <h1 align="center">What Type Is?</h1>
 <p align="center">A simple type checking library for Node.js</p>
 
