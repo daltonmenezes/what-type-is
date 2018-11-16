@@ -3,6 +3,7 @@
 <p align="center">A simple type checking library for Node.js</p>
 
 <p align="center">
+    <a href="https://www.patreon.com/daltonmenezes"><img src="https://img.shields.io/badge/become%20a-patron%20or%20sponsor-orange.svg" alt="become a patron or sponsor" /></a>
   <a href="https://paypal.me/daltonmenezes"><img src="https://img.shields.io/badge/donate-green.svg" alt="donate" /></a>
   <a href="https://github.com/daltonmenezes/what-type-is/releases">
     <img src="https://img.shields.io/badge/release-v1.2.0-lightgray.svg" alt="release version"/>
