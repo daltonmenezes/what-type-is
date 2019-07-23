@@ -55,7 +55,7 @@ console.log(
 ### Importing on-demand
 This is a great way to import only what you need to use. You can import any functions available using destructuring assignment. Just take a look at [API section](#api) to know all functions you can use and import it on-demand.
 ```js
-const { isArray, isObject, isPlainObject isFunction } = require('what-type-is')
+const { isArray, isObject, isPlainObject, isFunction } = require('what-type-is')
 const messages = ['Hello', 'World', 'How are you?']
 
 console.log(
