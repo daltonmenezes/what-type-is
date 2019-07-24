@@ -20,6 +20,7 @@
 - [Tests](#tests)
 - [Usage](#usage)
 - [API](#api)
+- [License](#license)
 
 ## Example
 ```js
@@ -199,5 +200,8 @@ isUndefined(undefined) // true
 isUndefined(null) // false
 ```
 
+## License
+[MIT License](https://github.com/daltonmenezes/what-type-is/blob/master/LICENSE)
 
+-------------
 [Go Back to The Top](#what-type-is)
